@@ -1,0 +1,6 @@
+package br.com.brunoccbertolini.pokedexapp.data.remote.responses
+
+data class GameIndice(
+    val game_index: Int,
+    val version: Version
+)
